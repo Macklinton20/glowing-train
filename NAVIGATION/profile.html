@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Profile</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <style>
+         * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+      padding: 40px 20px;
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1503264116251-35a269479413')
+    }
+
+    .profile-container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .profile-container img {
+      width: 250px;
+      height: 300px;
+      border-radius: 50%;
+      object-fit: 10px;
+      border: 3px solid #1abc9c;
+    }
+
+    .profile-container h1 {
+      font-size: 56px;
+      margin-bottom: 5px;
+      color: #2c3e50;
+      -webkit-text-stroke: 2px darkcyan;
+      color: transparent;
+       background-image: linear-gradient(darkcyan, darkcyan);
+       background-repeat: no-repeat;
+       -webkit-background-clip: text;
+       background-position: -705px 0;
+       animation: back 3s linear infinite alternate-reverse;
+    }
+    @keyframes back{
+      100%{
+        background-position: 0 0;
+      }
+    }
+
+    .profile-container h4 {
+      color: #1abc9c;
+      margin-bottom: 20px;
+    }
+
+    .profile-container p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .contact-links a {
+      text-decoration: none;
+      color: white;
+      background-color: #1abc9c;
+      padding: 10px 20px;
+      border-radius: 6px;
+      margin: 5px;
+      display: inline-block;
+      transition: background 0.3s ease;
+    }
+
+    .contact-links a:hover {
+      background-color: #16a085;
+    }
+
+
+    </style>
+    
+</head>
+<body>
+    <div class="profile-container">
+    <img src="second.jpg" alt="CLARENCE MACKLINTON">
+    <h1>CLARENCE MACKLINTON</h1>
+    <h4>Web Designer & Developer</h4>
+    <p>
+      Hi! I'm MACKLINTON, a passionate front-end developer and designer. I enjoy creating user-friendly websites that are fast, responsive, and visually appealing. 
+      I specialize in HTML, CSS, JavaScript, and love learning new web technologies.
+    </p>
+
+    <div class="contact-links">
+      <a href="mailto:macklintowambua941@gmail.com">Email Me</a>
+      <a href="https://facebook.com/Mac Cklinton" target="_blank">Facebook</a>
+      <a href="https://instagram.com/yourusername" target="_blank">Instagram</a>
+    </div>
+  </div>
+</body>
+</html>

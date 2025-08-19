@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mack_Linton Portofolio</title>
+	 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: rgb(66, 112, 155);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+    }
+
+    nav .logo {
+      font-size: 24px;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #bbb;
+      padding: 8px 15px;
+      border-radius: 5px;
+      transition: 0.3s ease;
+    }
+
+    nav ul li a:hover,
+    nav ul li a.active {
+      background: #1abc9c;
+      color: white;
+    }
+    
+  .menu-icon {
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+  display: none;
+  }
+
+    /* Hero Section */
+    .hero {
+      height: 90vh;
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1503264116251-35a269479413') center/cover no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      background-size: cover;
+      background-position: center;
+      animation: change 10s infinite ease-in-out;
+
+    }
+    @keyframes change{
+      0%{
+        background-image: url(background-1.jpg);
+      }
+      50%{
+        
+      }
+      75%{
+        background-image: url(background-2.jpeg);
+      }
+      
+    }
+
+    .hero h1 {
+      font-size: 8rem;
+      margin-bottom: 30px;
+      -webkit-text-stroke: 1px white;
+      color: transparent;
+      background-image: linear-gradient(white, white);
+      background-repeat: no-repeat;
+      -webkit-background-clip: text;
+      background-position: -1560px 0;
+      animation: backcolor 5s linear infinite alternate-reverse;
+    }
+
+    @keyframes backcolor{
+      100%{
+        background-position: 0 0;
+      }
+    }
+
+    
+	.hero a.button {
+      padding: 9px 20px;
+      background-color: #1abc9c;
+      color: white;
+      text-decoration: none;
+      display: inline-block;
+      justify-items: space-between;
+      font-weight: bold;
+      margin: 40px;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+	
+    }
+
+    .hero a.button:hover {
+      background-color: blue;
+	}
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="logo">MACKLINTON</div>
+    <ul>
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div>
+      <h1>Welcome to My Website</h1>
+      
+	  <a href="profile.html" class="button">View My Profile</a>
+    <a href="https://www.w3schools.com/" class="button">Learn More</a>
+    </div>
+  </section>
+
+</body>
+</html>
+	
+
+</body>
+</html>
